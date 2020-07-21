@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./연습.css" />
     </head>
     <body>
-        <h1>인공사 사이트</h1>
+        <h2>광주 인공지능 사관학교</h2>
         <form action="" method="POST">
             <label for="userid_input">아이디 : </label>
             <input
-            id="userid_input"
+            class="userid_input"
             type='text'
             name='userid' 
             placeholder="아이디를 입력해주세요" 
             />
             <br/>
+            <br>
             <label for="userpw_input">비밀번호 : </label>
             <input
             id="userpw_input"
@@ -24,6 +27,7 @@
             placeholder="비밀번호를 입력해주세요" 
             />
             <br/>
+            <br>
             <label for="select">비밀번호찾기 : </label>
             <select name="interest">
                 <label for="select">비밀번호찾기 : </label>
@@ -31,11 +35,20 @@
                 <option value="이메일">이메일</option>
                 <option value="출생지">출생지</option>
             </select>
+            <input id="select" type="text" name="findpw">
             <br/>
-            <textarea name="yes" cols="30" rows="30"></textarea>
-            <button name="전송" type="submit">
+            <textarea name="yes" cols="20" rows="20"></textarea>
+            <br>
+            <button class="button" name="전송" type="submit">
                 전송하기
             </button>
+            <div class="box">
+                이건 이거고 저건 저거다
+                <br>
+                너무 더워 여름은
+                <br>
+                에어컨 틀자~
+            </div>
         </form>
     </body>
 </html>
