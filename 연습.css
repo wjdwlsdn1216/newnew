@@ -1,0 +1,23 @@
+*{
+margin: 1;
+background-color: rgb(199, 191, 175);
+}
+h2{
+    margin: 1;
+    padding: 1;
+background-color: rgb(134, 133, 206);
+}
+.box{
+background-color: rgb(183, 218, 202);
+width: 230px;
+height: 65px;
+color: rgb(121, 114, 134);
+font-weight: bold;
+}
+.button{
+    background-color: rgb(94, 109, 42);
+    font-weight: 900;
+}
+.img{
+    background-size: 0px;
+}
