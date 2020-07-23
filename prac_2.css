@@ -8,6 +8,7 @@
   opacity: 0.2;
   position: absolute;
   left: 500px;
+  z-index: 4;
 
 
   /* TODO */
@@ -21,7 +22,7 @@
   opacity: 0.2;
   position: absolute;
   left: 450px;
-  z-index: 1;
+  z-index: 3;
 
   /* TODO */
   /* 포지션 구현하기 */
@@ -34,6 +35,7 @@
   opacity: 0.2;
   position: absolute;
   left: 400px;
+  z-index: 2;
   /* TODO */
   /* 포지션 구현하기 */
   /* 불투명도 구현하기 */
@@ -46,5 +48,6 @@
   opacity: 0.5;
   position: absolute;
   left: 300;
+  z-index: 1;
   
 }
